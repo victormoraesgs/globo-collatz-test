@@ -36,7 +36,7 @@ let maiorSequencia = {
 for (let numero = tamanhosCalculados.length; numero < limite; numero++) {
   let numeroAtual = numero;
   let tamanho = 0;
-  while (numeroAtual > 1 && numeroAtual >= 1) {
+  while (numeroAtual > 1 && numeroAtual >= numero) {
     tamanho++;
     numeroAtual = numeroAtual % 2 === 0 ? numeroAtual / 2 : 3 * numeroAtual + 1;
   }
